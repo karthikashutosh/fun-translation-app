@@ -5,13 +5,38 @@ body{
 :root{
     --primary-color:#A78BFA;
 }
+#nav{
+    background-color: var(--primary-color);
+}
 #outputDiv{
     border: 2px solid black;
     height: 10vh;
     padding: 2rem;
     display: block;
     margin: 2rem;
+    width: 80%;
 }
+.btn-primary{
+    font: 1em sans-serif;
+    border-radius:2rem ;
+    padding: 1rem;
+    margin:1rem;
+    background-color: var(--primary-color);
+    color:black;
+}
+
+#translated{
+    font-weight: bolder;
+}
+
 #text{
     height: 10vh;
+    display: block;
+    width:80%;
+
+}
+#output{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
